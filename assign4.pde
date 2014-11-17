@@ -122,8 +122,8 @@ void alienMaker() {
 
   aList[0]= new Alien(50, 50);
   for( int i=0;i<53;i++){
-       int j = i/12;
-    aList[i]= new Alien(50+ (int) (i%12*40),50+(int) (50*j));
+       int j = (int)i/12;
+    aList[i]= new Alien(50+ ((int)(i%12*40)),50+((int)(50*j)));
    
   }
 }
